@@ -24,3 +24,91 @@ label {
   max-width:35vw;
   overflow:hidden;
 }
+
+
+@media only screen and (max-width:640px){
+  body {
+    font-size:2.5rem;
+  }
+  .btn-xlg {
+    padding: 0.5rem 1rem;
+    font-size: 3.25rem;
+    line-height: 1.5;
+    width: 5.25rem;
+    border-radius: 0.5rem;
+  }
+
+
+  label {
+    font-size: 2.5rem;
+  }
+  // class to format the number display
+  .total {
+    font-size:2.5rem;
+    padding:1px;
+    border-radius:25px;
+    border:1px solid cadetblue;
+    width:35vw;
+    max-width:35vw;
+    overflow:hidden;
+  }
+
+}
+
+@media only screen and (min-width:641px) and (max-width:900px){
+  body {
+    font-size:5rem;
+  }
+  .btn-xlg {
+    padding: 0.5rem 1rem;
+    font-size: 4.25rem;
+    line-height: 1.5;
+    width: 6.25rem;
+    border-radius: 0.5rem;
+  }
+
+
+  label {
+    font-size: 5rem;
+  }
+  // class to format the number display
+  .total {
+    font-size:5rem;
+    padding:1px;
+    border-radius:25px;
+    border:1px solid cadetblue;
+    width:35vw;
+    max-width:35vw;
+    overflow:hidden;
+  }
+
+}
+
+@media only screen and (min-width:901px) and (max-width:1900px){
+  body {
+    font-size:6rem;
+  }
+  .btn-xlg {
+    padding: 0.5rem 1rem;
+    font-size: 4.75rem;
+    line-height: 1.5;
+    width: 6.75rem;
+    border-radius: 0.5rem;
+  }
+
+
+  label {
+    font-size: 6rem;
+  }
+  // class to format the number display
+  .total {
+    font-size:6rem;
+    padding:1px;
+    border-radius:25px;
+    border:1px solid cadetblue;
+    width:35vw;
+    max-width:35vw;
+    overflow:hidden;
+  }
+
+}
