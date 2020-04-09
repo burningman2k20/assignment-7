@@ -1,5 +1,7 @@
 // copied this from bootstrap so i could customize the button size more
-
+body {
+  font-size:4rem;
+}
 .btn-xlg {
   padding: 0.5rem 1rem;
   font-size: 3.75rem;
@@ -8,9 +10,13 @@
   border-radius: 0.5rem;
 }
 
+
+label {
+  font-size: 4rem;
+}
 // class to format the number display
 .total {
-  font-size:3.5rem;
+  font-size:4rem;
   padding:1px;
   border-radius:25px;
   border:1px solid cadetblue;
