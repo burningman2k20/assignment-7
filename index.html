@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Daves Calculator</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+  <!-- My CSS -->
+  <link rel="stylesheet" href="styles.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+  <!-- My Javascript -->
+  <script src="script.js"></script>
+  </head>
+<body>
+
+<div class="container-fluid">
+
+<label class="total" id="myList">0</label>
+
+  <div class="btn-group-horizontal btn-group-lg">
+    <button onclick="appendPlus()" type="button" class="btn-primary btn-xlg">+</button>
+    <button onclick="appendMinus()" type="button" class="btn-primary btn-xlg">-</button>
+    <button onclick="appendMultiply()" type="button" class="btn-primary btn-xlg">*</button>
+    <button onclick="appendDivision()" type="button" class="btn-primary btn-xlg">/</button>
+    <button onclick="removeCharacter()" type="button" class="btn-primary btn-xlg">Bk</button>
+  </div>
+
+  <div class="btn-group-horizontal btn-group-lg">
+    <button onclick="appendNumbers(1)" type="button" class="btn-primary btn-xlg">1</button>
+    <button onclick="appendNumbers(2)" type="button" class="btn-primary btn-xlg">2</button>
+    <button onclick="appendNumbers(3)" type="button" class="btn-primary btn-xlg">3</button>
+    <button onclick="appendOpenBracket()" type="button" class="btn-primary btn-xlg">(</button>
+    <button onclick="appendCloseBracket()" type="button" class="btn-primary btn-xlg">)</button>
+  </div>
+
+  <div class="btn-group-horizontal btn-group-lg">
+    <button onclick="appendNumbers(4)" type="button" class="btn-primary btn-xlg">4</button>
+    <button onclick="appendNumbers(5)" type="button" class="btn-primary btn-xlg">5</button>
+    <button onclick="appendNumbers(6)" type="button" class="btn-primary btn-xlg">6</button>
+    <!--<button onclick="percent()" type="button" class="btn-primary btn-xlg">%</button>-->
+  </div>
+
+  <div class="btn-group-horizontal btn-group-lg">
+    <button onclick="appendNumbers(7)" type="button" class="btn-primary btn-xlg">7</button>
+    <button onclick="appendNumbers(8)" type="button" class="btn-primary btn-xlg">8</button>
+    <button onclick="appendNumbers(9)" type="button" class="btn-primary btn-xlg">9</button>
+  </div>
+
+  <div class="btn-group-horizontal btn-group-lg">
+    <button onclick="appendDecimal()" type="button" class="btn-primary btn-xlg">.</button>
+    <button onclick="appendNumbers(0)" type="button" class="btn-primary btn-xlg">0</button>
+    <button onclick="ClearTotal()" type="button" class="btn-primary btn-xlg">C</button>
+    <button onclick="GetTotal()" type="button" class="btn-primary btn-xlg">=</button>
+  </div>
+</div>
+
+</body>
+</html>
